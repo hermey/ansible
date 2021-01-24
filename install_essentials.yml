@@ -1,0 +1,10 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: install essentials
+    apt:
+      name: fdupes
+
