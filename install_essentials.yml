@@ -14,6 +14,8 @@
 
   - name: install essentials
     apt:
-      name: fdupes
+      name: 
+        - fdupes
       state: latest
       # state: absent
+      update_cache: yes
